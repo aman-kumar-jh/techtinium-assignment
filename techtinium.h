@@ -39,7 +39,7 @@ void print_output(const vector<overall_cost> &output)
         cout<<"  {"<<endl;
         cout<<"   \"region\":"<<entry.region<<","<<endl;
 
-        if(entry.total_cost >= inf) cout<<"   \"total_cost\":"<<"Nan"<<","<<endl;
+        if(entry.total_cost >= inf) cout<<"   \"total_cost\":"<<"Not possible"<<","<<endl;
         else cout<<"   \"total_cost\":"<<entry.total_cost<<","<<endl;
         
         cout<<"   \"machines\":["<<endl;
